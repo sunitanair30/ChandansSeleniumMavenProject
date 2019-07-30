@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38377" started-at="2019-07-23T15:53:03Z" finished-at="2019-07-23T15:53:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38377" started-at="2019-07-23T15:53:03Z" finished-at="2019-07-23T15:53:42Z">
+      <class name="com.test.GoogleTestCases">
+        <test-method status="PASS" signature="openGoogleURL()[pri:0, instance:com.test.GoogleTestCases@13969fbe]" name="openGoogleURL" duration-ms="1377" started-at="2019-07-23T15:53:26Z" finished-at="2019-07-23T15:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogleURL -->
+        <test-method status="PASS" signature="searchText()[pri:0, instance:com.test.GoogleTestCases@13969fbe]" name="searchText" duration-ms="2146" started-at="2019-07-23T15:53:27Z" depends-on-methods="com.test.GoogleTestCases.openGoogleURL" finished-at="2019-07-23T15:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchText -->
+        <test-method status="PASS" signature="clickOnFirstLink()[pri:0, instance:com.test.GoogleTestCases@13969fbe]" name="clickOnFirstLink" duration-ms="3582" started-at="2019-07-23T15:53:29Z" depends-on-methods="com.test.GoogleTestCases.searchText" finished-at="2019-07-23T15:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFirstLink -->
+      </class> <!-- com.test.GoogleTestCases -->
+      <class name="com.test.FacebookTestCases">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.FacebookTestCases@6aaa5eb0]" name="beforeTest" is-config="true" duration-ms="4701" started-at="2019-07-23T15:53:03Z" finished-at="2019-07-23T15:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.FirstTestNGDemo@22f71333]" name="setUp" is-config="true" duration-ms="3483" started-at="2019-07-23T15:53:08Z" finished-at="2019-07-23T15:53:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.GoogleTestCases@13969fbe]" name="beforeTest" is-config="true" duration-ms="3502" started-at="2019-07-23T15:53:12Z" finished-at="2019-07-23T15:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openFacebookURL()[pri:0, instance:com.test.FacebookTestCases@6aaa5eb0]" name="openFacebookURL" duration-ms="6877" started-at="2019-07-23T15:53:33Z" finished-at="2019-07-23T15:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebookURL -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.FacebookTestCases@6aaa5eb0]" name="afterTest" is-config="true" duration-ms="678" started-at="2019-07-23T15:53:40Z" finished-at="2019-07-23T15:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.FirstTestNGDemo@22f71333]" name="closeBrowser" is-config="true" duration-ms="685" started-at="2019-07-23T15:53:40Z" finished-at="2019-07-23T15:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.GoogleTestCases@13969fbe]" name="afterTest" is-config="true" duration-ms="860" started-at="2019-07-23T15:53:41Z" finished-at="2019-07-23T15:53:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.FacebookTestCases -->
+      <class name="com.test.FirstTestNGDemo">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:com.test.FirstTestNGDemo@22f71333]" name="openURL" duration-ms="4140" started-at="2019-07-23T15:53:15Z" finished-at="2019-07-23T15:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="canTestUnSuccessfulLogin()[pri:0, instance:com.test.FirstTestNGDemo@22f71333]" name="canTestUnSuccessfulLogin" duration-ms="872" started-at="2019-07-23T15:53:19Z" depends-on-methods="com.test.FirstTestNGDemo.openURL" finished-at="2019-07-23T15:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canTestUnSuccessfulLogin -->
+        <test-method status="PASS" signature="canTestSuccessfulLogin()[pri:0, instance:com.test.FirstTestNGDemo@22f71333]" name="canTestSuccessfulLogin" duration-ms="4127" started-at="2019-07-23T15:53:20Z" depends-on-methods="com.test.FirstTestNGDemo.canTestUnSuccessfulLogin" finished-at="2019-07-23T15:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canTestSuccessfulLogin -->
+        <test-method status="PASS" signature="canTestNewCustomerLink()[pri:0, instance:com.test.FirstTestNGDemo@22f71333]" name="canTestNewCustomerLink" duration-ms="1310" started-at="2019-07-23T15:53:24Z" depends-on-methods="com.test.FirstTestNGDemo.canTestSuccessfulLogin" finished-at="2019-07-23T15:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- canTestNewCustomerLink -->
+      </class> <!-- com.test.FirstTestNGDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
