@@ -35,6 +35,10 @@ public class GoogleTestCases {
 	  driver.findElement(By.xpath("//*[@id=\"rso\"]/div/div/div[1]/div/div/div[1]/a")).click();
 	  Assert.assertEquals(driver.getTitle(), "Selenium Online Training | Sonarqube Training |Study Automation");
   }
+  @Test
+  public void test() {
+	  Assert.assertTrue(true);
+  }
   @AfterTest
   public void afterTest() {
 	  driver.quit();
