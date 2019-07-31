@@ -16,7 +16,7 @@ public class FacebookTestCases {
 	  public void beforeTest() {
 		  	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Chandan/Desktop\\browserDriver\\chromedriver.exe");
 			driver=new ChromeDriver();
-			driver.manage().window().maximize();
+			//driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
 	  }
   
@@ -32,6 +32,6 @@ public class FacebookTestCases {
 	  @Test(dependsOnMethods = "openFacebookURL", enabled = false)
 	  public void changeLanguage() {
 		  driver.findElement(By.linkText("English (UK)")).click();
-		  Assert.assertEquals(driver.getTitle(),"Facebook – log in or sign up");
+		  Assert.assertEquals(driver.getTitle(),"Facebook â€“ log in or sign up");
 	  }
 }
